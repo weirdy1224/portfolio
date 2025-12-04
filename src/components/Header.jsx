@@ -47,7 +47,7 @@ const Header = () => {
             </nav>
 
             <button onClick={toggleMobileMenu} className='md:hidden text-3xl p-2 z-50'>
-                <i class='bx bx-menu'></i>
+                <i class='bx bx-menu fixed top-7 right-6'></i>
             </button>
 
             <div id='mobileMenu' className=' hidden fixed top-16 bottom-0 right-0 left-0 p-5 md:hidden z-40 bg-black bg-opacity-70 backdrop-blur-sm'>
